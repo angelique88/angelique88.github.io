@@ -104,7 +104,8 @@ header_transparent: false
 # coolblack: #090a0b
 # spacegrey: #353535
 # snowwhite: #ffffff
-# theme_color: snowwhite
+lightblue: #b9d7eb
+theme_color: lightblue
 #
 # Custom color as below:
 # theme_color: "#882250"
