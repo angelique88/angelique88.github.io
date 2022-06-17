@@ -58,7 +58,7 @@ yat:
 # debug: false
 
 # If you don't want transparent header, you can set false
-# header_transparent: true
+header_transparent: false
 
 # If you want to change the content width, you can set to another value
 # content_width: "920px"
@@ -102,10 +102,9 @@ yat:
 # You can choose a theme color
 # Default theme colors as below:
 # coolblack: #090a0b
-spacegrey: 353535
+# spacegrey: #353535
 # snowwhite: #ffffff
-#
-theme_color: spacegrey
+# theme_color: snowwhite
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -144,12 +143,12 @@ theme_color: spacegrey
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+ # - index.html
+  - archives.html
+  - categories.html
+  - tags.html
+  - about.md
 
 # Page default value
 # defaults:
